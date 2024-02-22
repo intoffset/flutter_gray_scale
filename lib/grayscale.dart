@@ -2,7 +2,7 @@ library grayscale;
 
 import 'package:flutter/material.dart';
 
-extension ColorSchemeGray on ColorScheme {
+extension GrayColorScheme on ColorScheme {
   static ColorScheme highContrastGray(Brightness brightness) {
     return brightness == Brightness.light
         ? ColorScheme.highContrastLight(brightness: brightness).toGray()
@@ -47,7 +47,7 @@ extension ColorSchemeGray on ColorScheme {
   }
 }
 
-extension ColorGray on Color {
+extension GrayColor on Color {
   Color toGray() {
     final gray = computeLuminance();
     return Color.fromRGBO(
