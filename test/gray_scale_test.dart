@@ -1,12 +1,13 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import 'package:gray_scale/gray_scale.dart';
 
 void main() {
-  test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+  test('generate gray scale color scheme', () {
+    final colorSchemeLight = ColorSchemeGray.highContrastGray(Brightness.light);
+    final colorSchemeDark = ColorSchemeGray.highContrastGray(Brightness.dark);
+    expect(colorSchemeLight.brightness, Brightness.light);
+    expect(colorSchemeDark.brightness, Brightness.dark);
   });
 }
