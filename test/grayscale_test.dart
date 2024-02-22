@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
-import 'package:gray_scale/gray_scale.dart';
+import 'package:grayscale/grayscale.dart';
 
 void main() {
   test('generate gray scale color scheme', () {

@@ -1,4 +1,4 @@
-library gray_scale;
+library grayscale;
 
 import 'package:flutter/material.dart';
 
@@ -45,7 +45,6 @@ extension ColorSchemeGray on ColorScheme {
     );
     return colorScheme;
   }
-
 }
 
 extension ColorGray on Color {

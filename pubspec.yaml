@@ -1,7 +1,7 @@
-name: gray_scale
+name: grayscale
 description: "A new Flutter package project."
 version: 0.0.1
-homepage: https://github.com/intoffset/flutter_gray_scale
+homepage: https://github.com/intoffset/flutter_grayscale
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
