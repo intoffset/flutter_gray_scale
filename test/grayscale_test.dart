@@ -5,8 +5,8 @@ import 'package:grayscale/grayscale.dart';
 
 void main() {
   test('generate gray scale color scheme', () {
-    final colorSchemeLight = ColorSchemeGray.highContrastGray(Brightness.light);
-    final colorSchemeDark = ColorSchemeGray.highContrastGray(Brightness.dark);
+    final colorSchemeLight = GrayColorScheme.highContrastGray(Brightness.light);
+    final colorSchemeDark = GrayColorScheme.highContrastGray(Brightness.dark);
     expect(colorSchemeLight.brightness, Brightness.light);
     expect(colorSchemeDark.brightness, Brightness.dark);
   });
