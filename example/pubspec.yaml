@@ -38,6 +38,11 @@ dependencies:
   grayscale:
     path: ../
   provider: ^6.1.1
+  ui_example:
+    git:
+      url: https://github.com/intoffset/flutter_examples
+      ref: main
+      path: ui_example
 
 dev_dependencies:
   flutter_test:

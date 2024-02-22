@@ -81,7 +81,7 @@ packages:
       path: ".."
       relative: true
     source: path
-    version: "0.0.1"
+    version: "0.0.4"
   leak_tracker:
     dependency: transitive
     description:
@@ -215,6 +215,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.6.1"
+  ui_example:
+    dependency: "direct main"
+    description:
+      path: ui_example
+      ref: main
+      resolved-ref: "29e1eecdeb514791b03b0f407df2991f8b641429"
+      url: "https://github.com/intoffset/flutter_examples"
+    source: git
+    version: "0.0.1"
   vector_math:
     dependency: transitive
     description:
