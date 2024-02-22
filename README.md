@@ -1,8 +1,9 @@
-# Grayscale Conversion for Flutter UI
+# Grayscale Color Scheme for Flutter
 
 ## Features
 
-Generate a grayscale color scheme
+- Generate a grayscale `ColorScheme`
+- Convert `Color` and `ColorScheme` to grayscale
 
 ## Getting started
 
