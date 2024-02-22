@@ -2,6 +2,13 @@ name: grayscale
 description: "Generate a grayscale color scheme"
 version: 0.0.1
 homepage: https://github.com/intoffset/flutter_grayscale
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
