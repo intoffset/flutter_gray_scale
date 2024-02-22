@@ -2,7 +2,7 @@
 
 ## Features
 
-Convert your colosheme to grayscale
+Generate a grayscale color scheme
 
 ## Getting started
 

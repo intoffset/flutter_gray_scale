@@ -1,5 +1,5 @@
 name: grayscale
-description: "A new Flutter package project."
+description: "Generate a grayscale color scheme"
 version: 0.0.1
 homepage: https://github.com/intoffset/flutter_grayscale
 
