@@ -1,5 +1,14 @@
 # Grayscale Color Scheme for Flutter
 
+<p>
+  <img src="https://github.com/intoffset/flutter_grayscale/blob/main/doc/light.png?raw=true"
+    alt="Grayscale UI for light theme" height="400"/>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="https://github.com/intoffset/flutter_grayscale/blob/main/doc/dark.png?raw=true"
+   alt="Grayscale UI for dark theme" height="400"/>
+</p>
+
+
 ## Features
 
 - Generate a grayscale `ColorScheme`
