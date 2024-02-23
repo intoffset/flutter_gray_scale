@@ -23,7 +23,7 @@ class GrayscaleApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return Consumer<GrayscaleModel>(builder: (context, isGray, child) {
       return MaterialApp(
-        title: 'Grayscale Example',
+        title: 'Grayscale Demo',
         theme: ThemeData(
           brightness: Brightness.light,
           colorScheme: GrayColorScheme.highContrastGray(Brightness.light),
@@ -33,7 +33,7 @@ class GrayscaleApp extends StatelessWidget {
           colorScheme: GrayColorScheme.highContrastGray(Brightness.dark),
         ),
         themeMode: ThemeMode.system,
-        home: const HomePage(title: 'Grayscale Counter'),
+        home: const HomePage(title: 'Grayscale Demo'),
       );
     });
   }

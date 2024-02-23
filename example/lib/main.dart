@@ -17,31 +17,31 @@ class GrayscaleApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Consumer<GrayscaleModel>(builder: (context, grayscale, child) {
-      if (grayscale.isGray) {
+    return Consumer<GrayscaleModel>(
+      builder: (context, grayscale, child) {
+        final lightTheme = grayscale.isGray
+            ? ThemeData(
+                brightness: Brightness.light,
+                colorScheme: GrayColorScheme.highContrastGray(Brightness.light),
+              )
+            : ThemeData(brightness: Brightness.light);
+
+        final darkTheme = grayscale.isGray
+            ? ThemeData(
+                brightness: Brightness.dark,
+                colorScheme: GrayColorScheme.highContrastGray(Brightness.dark),
+              )
+            : ThemeData(brightness: Brightness.dark);
+
         return MaterialApp(
-          title: 'Flutter Demo',
-          theme: ThemeData(
-            brightness: Brightness.light,
-            colorScheme: GrayColorScheme.highContrastGray(Brightness.light),
-          ),
-          darkTheme: ThemeData(
-            brightness: Brightness.dark,
-            colorScheme: GrayColorScheme.highContrastGray(Brightness.dark),
-          ),
+          title: 'Grayscale Demo',
+          theme: lightTheme,
+          darkTheme: darkTheme,
           themeMode: ThemeMode.system,
-          home: const HomePage(title: 'Grayscale Counter'),
+          home: const HomePage(title: 'Grayscale Demo'),
         );
-      } else {
-        return MaterialApp(
-          title: 'Flutter Demo',
-          theme: ThemeData(brightness: Brightness.light),
-          darkTheme: ThemeData(brightness: Brightness.dark),
-          themeMode: ThemeMode.system,
-          home: const HomePage(title: 'Grayscale Counter'),
-        );
-      }
-    });
+      },
+    );
   }
 }
 
