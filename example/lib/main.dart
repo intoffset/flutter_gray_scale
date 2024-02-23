@@ -63,6 +63,7 @@ class HomePage extends StatelessWidget {
             GrayscaleSwitch(),
             Padding(
               padding: EdgeInsets.all(16.0),
+              // Defined in https://github.com/intoffset/flutter_examples/blob/main/ui_example/lib/ui_example.dart
               child: UiExamples(),
             ),
           ],

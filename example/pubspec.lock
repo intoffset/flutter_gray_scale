@@ -220,7 +220,7 @@ packages:
     description:
       path: ui_example
       ref: main
-      resolved-ref: "29e1eecdeb514791b03b0f407df2991f8b641429"
+      resolved-ref: "3cb6a05746af556193cd8ace1b35c7f23ef74f38"
       url: "https://github.com/intoffset/flutter_examples"
     source: git
     version: "0.0.1"
