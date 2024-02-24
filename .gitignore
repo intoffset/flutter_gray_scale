@@ -34,3 +34,5 @@ build/
 /example/linux
 /example/macos
 /example/web
+/example/windows
+/example/pubspec.lock
