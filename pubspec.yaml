@@ -1,6 +1,6 @@
 name: grayscale
 description: "Create grayscale color schemes in Flutter easily with this library. Convert ColorScheme and Color objects to grayscale effortlessly."
-version: 0.0.5+2
+version: 0.0.5+3
 homepage: https://github.com/intoffset/flutter_grayscale
 
 environment:

@@ -1,14 +1,19 @@
+/// A library that provides grayscale utilities for [ColorScheme] and [Color].
 library grayscale;
 
 import 'package:flutter/material.dart';
 
+/// A [ColorScheme] extension that provides grayscale utilities.
 extension GrayColorScheme on ColorScheme {
+
+  /// Creates a high contrast grayscale [ColorScheme] based on the given [brightness].
   static ColorScheme highContrastGray(Brightness brightness) {
     return brightness == Brightness.light
         ? ColorScheme.highContrastLight(brightness: brightness).toGray()
         : ColorScheme.highContrastDark(brightness: brightness).toGray();
   }
 
+  /// Converts a [ColorScheme] to grayscale.
   ColorScheme toGray() {
     final colorScheme = ColorScheme(
       primary: primary.toGray(),
@@ -47,7 +52,9 @@ extension GrayColorScheme on ColorScheme {
   }
 }
 
+/// A [Color] extension that provides grayscale utilities.
 extension GrayColor on Color {
+  /// Converts a [Color] to grayscale.
   Color toGray() {
     final gray = computeLuminance();
     return Color.fromRGBO(
