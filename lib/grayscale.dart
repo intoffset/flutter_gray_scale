@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 
 /// A [ColorScheme] extension that provides grayscale utilities.
 extension GrayColorScheme on ColorScheme {
-
   /// Creates a high contrast grayscale [ColorScheme] based on the given [brightness].
   static ColorScheme highContrastGray(Brightness brightness) {
     return brightness == Brightness.light
