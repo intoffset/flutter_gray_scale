@@ -21,16 +21,12 @@ class GrayscaleApp extends StatelessWidget {
       builder: (context, grayscale, child) {
         final lightTheme = grayscale.isGray
             ? ThemeData(
-                brightness: Brightness.light,
-                colorScheme: GrayColorScheme.highContrastGray(Brightness.light),
-              )
+                colorScheme: GrayColorScheme.highContrastGray(Brightness.light))
             : ThemeData(brightness: Brightness.light);
 
         final darkTheme = grayscale.isGray
             ? ThemeData(
-                brightness: Brightness.dark,
-                colorScheme: GrayColorScheme.highContrastGray(Brightness.dark),
-              )
+                colorScheme: GrayColorScheme.highContrastGray(Brightness.dark))
             : ThemeData(brightness: Brightness.dark);
 
         return MaterialApp(
