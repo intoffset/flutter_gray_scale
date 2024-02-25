@@ -29,10 +29,10 @@ migrate_working_dir/
 build/
 
 # Example
-/example/android
-/example/ios
-/example/linux
-/example/macos
-/example/web
-/example/windows
-/example/pubspec.lock
+/example/flutter_grayscale_example/android
+/example/flutter_grayscale_example/ios
+/example/flutter_grayscale_example/linux
+/example/flutter_grayscale_example/macos
+/example/flutter_grayscale_example/web
+/example/flutter_grayscale_example/windows
+/example/flutter_grayscale_example/pubspec.lock
